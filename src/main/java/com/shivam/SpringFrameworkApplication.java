@@ -8,10 +8,9 @@ import org.springframework.context.ApplicationContext;
 public class SpringFrameworkApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext context = SpringApplication.run(SpringFrameworkApplication.class, args);
-		
+		ApplicationContext context = SpringApplication.run(SpringFrameworkApplication.class, args); 	
 		Temp temp = context.getBean(Temp.class);
-		temp.doSomething();
+		temp.doSomething(); 	 
 	}
 
 }
